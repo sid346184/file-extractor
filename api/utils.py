@@ -92,7 +92,9 @@ def process_directory(directory_path, output_file='output.json'):
     directory = Path(directory_path)
     
     if not directory.exists():
-        return {"error": "Directory does not exist"}
+        return {"error": "Path does not exist"}
+    if not directory.is_dir():
+        return {"error": "Path is not a directory"}
 
     for file_path in directory.iterdir():
         if file_path.is_file():

@@ -19,6 +19,8 @@ class ExtractTextView(APIView):
         result = process_directory(directory_path)
         
         if "error" in result:
+             if "not exist" in result["error"] or "not a directory" in result["error"]:
+                 return Response(result, status=status.HTTP_400_BAD_REQUEST)
              return Response(result, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
         
         return Response(result, status=status.HTTP_200_OK)
