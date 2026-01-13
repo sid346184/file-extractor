@@ -24,7 +24,7 @@ A Django-based API that scans a directory containing files of multiple formats (
    ```
 3. Install dependencies:
    ```bash
-   pip install django djangorestframework pymupdf python-docx openpyxl pandas
+   pip install -r requirements.txt
    ```
 4. Run migrations (not strictly necessary as we don't use DB models, but good practice):
    ```bash
