@@ -1,0 +1,18 @@
+[
+    {
+        "file": "invoice_2026_001.pdf",
+        "contents": "INVOICE #2026-001\nDate: January 13, 2026\nBill To: Acme Corp\nDescription\nAmount\nConsulting Services (10 hrs)\n$1,500.00\nSystem Audit\n$800.00\nReport Generation\n$200.00\nTotal: $2,500.00"
+    },
+    {
+        "file": "meeting_minutes.txt",
+        "contents": "Weekly Team Meeting - Jan 15, 2026\n\nAttendees: Alice, Bob, Charlie\nAgenda:\n- Q1 Roadmap Review\n- Budget Allocation\n- Office Renovation Update\n\nAction Items:\n1. Alice to finalize the roadmap by Friday.\n2. Bob to send budget report."
+    },
+    {
+        "file": "q1_budget.xlsx",
+        "contents": "Sheet: Sheet1\n         Category  Budget  Spent  Remaining\nSoftware Licenses    5000   4500        500\nHardware Upgrades   12000   2000      10000\n    Team Training    3000    500       2500\n        Marketing    8000   1500       6500\n            Total   28000   8500      19500"
+    },
+    {
+        "file": "project_proposal.docx",
+        "contents": "Project Phoenix Proposal\nExecutive Summary\nProject Phoenix aims to revolutionize our legacy systems by migrating to a cloud-native architecture. This will improve scalability and reduce maintenance costs by 40%.\nKey Objectives\n1. Zero downtime deployment.\n2. Enhanced security compliance.\n3. Real-time analytics dashboard."
+    }
+]
